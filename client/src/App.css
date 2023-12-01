@@ -1,6 +1,92 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* text-align: center; */
+  max-width: 100vw;
+  max-height: 100vh;
+  margin-bottom: 2rem;
+}
+
+/* Style for the container div */
+div {
+  display: grid;
+  padding: 10px;
+  margin: 10px;
+  max-width: 1000px; /* Adjust as needed */
+}
+h1 {
   text-align: center;
+}
+
+/* Style for the title */
+h2 {
+  color: #787676;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Style for owner, description, area, and price */
+h3 {
+  color: #858383;
+  font-size: 1.2em;
+  margin: 5px 0;
+}
+
+/* Style for the image */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* Style for the body */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for the container */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Style for the heading */
+h1 {
+  color: #868282;
+}
+
+/* Style for the image */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Style for the subheading */
+h2 {
+  color: #666;
+}
+
+/* Style for the button */
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #2980b9;
 }
