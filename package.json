@@ -1,0 +1,22 @@
+{
+  "name": "mern-stack-geojson",
+  "version": "1.0.0",
+  "description": "Creating a real estate application where users can search for properties based on their desired location and Implementing mongoose's geo location search to enable users to find properties within a specific area or proximity to certain landmarks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
