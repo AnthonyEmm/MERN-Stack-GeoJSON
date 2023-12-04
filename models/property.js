@@ -1,6 +1,6 @@
 const { Schema, model } = require("mongoose");
 
-const userSchema = new Schema({
+const propertySchema = new Schema({
   title: { type: String, unique: true, required: true },
   description: { type: String, required: true },
   price: { type: Number, required: true },
@@ -17,6 +17,6 @@ const userSchema = new Schema({
   createdAt: { type: Date, default: Date.now() },
 });
 
-const Property = model("Property", userSchema);
+const Property = model("Property", propertySchema);
 
 module.exports = Property;
